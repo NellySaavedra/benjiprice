@@ -1,0 +1,22 @@
+/* TEAM */
+Product Owner - Ana María Franklin
+Lead Developer - Giancarlo Corzo
+Frontend Developer - Nello Saavedra
+Frontend Developer - Stephanny Urrua
+
+/* THANKS */
+
+    Ruby
+    Middleman
+    Bootstrap
+    Sass
+    Compass
+    jQuery
+    GIT
+
+/* SITE */
+
+    Last Update: Set 2016
+    Doctype: HTML5
+    IDE: Atom
+    Platform: Middleman - Ruby
