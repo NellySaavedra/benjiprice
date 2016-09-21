@@ -1,8 +1,9 @@
 /* TEAM */
-Product Owner - Ana María Franklin
+Product Owner - Ana María Martínez
 Lead Developer - Giancarlo Corzo
 Frontend Developer - Nello Saavedra
 Frontend Developer - Stephanny Urrua
+UX/UI Designer - Malu Romero
 
 /* THANKS */
 

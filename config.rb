@@ -7,17 +7,12 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 
-# Per-page layout changes:
-#
-# With no layout
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-
-# Turn this on if you want to make your url's prettier, without the .html
 activate :directory_indexes
-
+activate :i18n
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout

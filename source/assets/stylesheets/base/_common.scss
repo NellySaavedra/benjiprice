@@ -1,3 +1,20 @@
 //------------------------------------
-// common clases
+// Common and General classes
+// description: Place here all class that should affect many components or several pages
 //------------------------------------
+
+html,
+body {
+    margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body {
+    color: $font-color;
+	background: $bg-color;
+    font-family: $default-font-family;
+    font-size: $default-font-size;
+    line-height: 1.5;
+    position: relative;
+}
