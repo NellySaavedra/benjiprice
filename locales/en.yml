@@ -4,5 +4,17 @@ en:
     seo:
       keywords: "Code, Academy, Web, Shop, Programing, Developers"
       description: "Laboratoria is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector."
+      facebook:
+        title: "Laboratoria"
+        description: "Your Description"
+        image: "facebook"
+      twitter:
+        title: "Your Awesome Title"
+        description: "Your Description"
+  header:
+    menu:
+      name: "menu"
+      joinus: "Join Us"
+      apply: "Apply"      
   index:
     test: "This is the home page"

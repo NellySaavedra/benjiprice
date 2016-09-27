@@ -19,7 +19,6 @@ $box-models: 'padding', 'padding-top', 'padding-right',
              'margin-top', 'margin-right', 'margin-bottom',
              'margin-left';
 
-// Generated code: class .p-7 { padding: 7px;padding: 0. }
 @for $i from 0 through $loop-limit {
   @for $j from 1 through length($box-models) {
     .#{nth($box-models-abbr, $j)}-#{$i * $multiple} {
@@ -33,30 +32,30 @@ $box-models: 'padding', 'padding-top', 'padding-right',
 
 // PADDING VERTICAL & HORIZONTAL
 @for $i from 0 through $loop-limit {
-  .pv-#{$i*$multiple} {
-    padding-top: ($i*$multiple) + px;
-    padding-bottom: ($i*$multiple) + px;
-    padding-top: rem($i*$multiple);
-    padding-bottom: rem($i*$multiple);
+  .pv-#{$i * $multiple} {
+    padding-top: ($i * $multiple) + px;
+    padding-bottom: ($i * $multiple) + px;
+    padding-top: ($i * $multiple / $default-font-size) + rem;
+    padding-bottom: ($i * $multiple / $default-font-size) + rem;
   }
 }
 
 @for $i from 0 through $loop-limit {
-  .ph-#{$i*$multiple} {
-    padding-left: ($i*$multiple) + px;
-    padding-right: ($i*$multiple) + px;
-    padding-left: rem($i*$multiple);
-    padding-right: rem($i*$multiple);
+  .ph-#{$i * $multiple} {
+    padding-left: ($i * $multiple) + px;
+    padding-right: ($i * $multiple) + px;
+    padding-left: ($i * $multiple / $default-font-size) + rem;
+    padding-right: ($i * $multiple / $default-font-size) + rem;
   }
 }
 
 // MARGIN VERTICAL & HORIZONTAL
 @for $i from 0 through $loop-limit {
-  .mv-#{$i*$multiple} {
-    margin-top: ($i*$multiple) + px;
-    margin-bottom: ($i*$multiple) + px;
-    margin-top: rem($i*$multiple);
-    margin-bottom: rem($i*$multiple);
+  .mv-#{$i * $multiple} {
+    margin-top: ($i * $multiple) + px;
+    margin-bottom: ($i * $multiple) + px;
+    margin-top: ($i * $multiple / $default-font-size) + rem;
+    margin-bottom: ($i * $multiple / $default-font-size) + rem;
   }
 }
 
@@ -64,8 +63,8 @@ $box-models: 'padding', 'padding-top', 'padding-right',
   .mh-#{$i*$multiple} {
     margin-left: ($i*$multiple) + px;
     margin-right: ($i*$multiple) + px;
-    margin-left: rem($i*$multiple);
-    margin-right: rem($i*$multiple);
+    margin-left: ($i * $multiple / $default-font-size) + rem;
+    margin-right: ($i * $multiple / $default-font-size) + rem;
   }
 }
 
@@ -79,7 +78,7 @@ $box-models: 'padding', 'padding-top', 'padding-right',
           #{nth($box-models, $j)}: ($i*$multiple) + px;
           // REMs for modern browsers
           @if $use-rem == true {
-            #{nth($box-models, $j)}: rem($i*$multiple);
+            #{nth($box-models, $j)}: ($i * $multiple / $default-font-size) + rem;
           }
         }
       }
@@ -94,8 +93,8 @@ $box-models: 'padding', 'padding-top', 'padding-right',
       .pv-#{$i*$multiple}-#{nth($breakpoints-sufixes, $k)} {
         padding-top: ($i*$multiple) + px;
         padding-bottom: ($i*$multiple) + px;
-        padding-top: rem($i*$multiple);
-        padding-bottom: rem($i*$multiple);
+        padding-top: ($i * $multiple / $default-font-size) + rem;
+        padding-bottom: ($i * $multiple / $default-font-size) + rem;
       }
     }
   }
@@ -107,8 +106,8 @@ $box-models: 'padding', 'padding-top', 'padding-right',
       .ph-#{$i*$multiple}-#{nth($breakpoints-sufixes, $k)} {
         padding-left: ($i*$multiple) + px;
         padding-right: ($i*$multiple) + px;
-        padding-left: rem($i*$multiple);
-        padding-right: rem($i*$multiple);
+        padding-left: ($i * $multiple / $default-font-size) + rem;
+        padding-right: ($i * $multiple / $default-font-size) + rem;
       }
     }
   }
@@ -121,8 +120,8 @@ $box-models: 'padding', 'padding-top', 'padding-right',
       .mv-#{$i*$multiple}-#{nth($breakpoints-sufixes, $k)} {
         margin-top: ($i*$multiple) + px;
         margin-bottom: ($i*$multiple) + px;
-        margin-top: rem($i*$multiple);
-        margin-bottom: rem($i*$multiple);
+        margin-top: ($i * $multiple / $default-font-size) + rem;
+        margin-bottom: ($i * $multiple / $default-font-size) + rem;
       }
     }
   }
@@ -134,8 +133,8 @@ $box-models: 'padding', 'padding-top', 'padding-right',
       .mh-#{$i*$multiple}-#{nth($breakpoints-sufixes, $k)} {
         margin-left: ($i*$multiple) + px;
         margin-right: ($i*$multiple) + px;
-        margin-left: rem($i*$multiple);
-        margin-right: rem($i*$multiple);
+        margin-left: ($i * $multiple / $default-font-size) + rem;
+        margin-right: ($i * $multiple / $default-font-size) + rem;
       }
     }
   }

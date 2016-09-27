@@ -1,9 +1,7 @@
 @charset "utf-8";
 
-//Bootstrap components
-@import "vendor/components";
-
-//Gems
+//Third party vendors
+@import "vendor/bootstrap";
 @import "font-awesome";
 
 //Helpers

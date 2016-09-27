@@ -3,6 +3,18 @@ es:
     title: "Laboratoria, código que transforma"
     seo:
       keywords: "Code, Academy, Web, Shop, Programing, Developers"
-      description: "Laboratoria is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector."    
+      description: "Laboratoria is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector."
+      facebook:
+        title: "Laboratoria"
+        description: "Your Description"
+        image: "facebook"
+      twitter:
+        title: "Your Awesome Title"
+        description: "Your Description"
+  header:
+    menu:
+      name: "menú"
+      joinus: "Únete"
+      apply: "Postula"
   index:
     test: "Este es el home page"
