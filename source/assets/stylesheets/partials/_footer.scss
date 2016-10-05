@@ -1,0 +1,41 @@
+footer{
+	color: $Text-White;
+	background-color: $gris-laboratoria;
+	padding: 4%;
+	a{
+		margin-left:1%;
+	}
+}
+footer h6 {
+	font-size: 1.7em;
+}	
+.form-footer{
+	color: $amarillo-laboratoria;
+	margin-bottom: 3%;
+
+	input{
+		background-color: $gris-laboratoria;
+		border: none;
+		border-bottom: 1px solid $bg-color;
+		padding: 1% 0%;
+	}
+	.footer-button {
+		border:1px solid $bg-color;
+	}
+	input:first-child{
+		width: 70%;
+		margin-right: -4px;
+	}
+	input:nth-child(2){
+		width: 15%;
+	}
+}
+.fecha {
+	margin-top: 5%;
+	font-size: .8em;
+}
+.hr-short{
+	width: 20px;
+	border: 1px solid $amarillo-laboratoria;
+	margin-left: 0px;
+}
