@@ -1,41 +1,49 @@
 footer{
-	color: $Text-White;
+	color: $font-color-white;
 	background-color: $gris-laboratoria;
-	padding: 4%;
-	a{
-		margin-left:1%;
-	}
-}
-footer h6 {
-	font-size: 1.7em;
-}	
-.form-footer{
-	color: $amarillo-laboratoria;
-	margin-bottom: 3%;
+	padding: 3.5%;
 
-	input{
-		background-color: $gris-laboratoria;
-		border: none;
-		border-bottom: 1px solid $bg-color;
-		padding: 1% 0%;
+	h6 {
+	font-size: 1.7em;
+	}	
+/* Probablemente este form se aplique en otras partes del proyecto, 
+de ser así se pasará a common y se quitará de esta hoja*/
+	form{
+		margin-bottom: 3%;
+		input{
+			background-color: $gris-laboratoria;
+			border: none;
+			border-bottom: 1px solid $bg-color;
+			padding: 1% 0%;
+			margin-bottom: 2%;
+		}
+		.footer-button {
+			border:1px solid $bg-color;
+		}
+		input:first-child{
+			width: 70%;
+			margin-right: -4px;
+			font-style: italic;
+		}
+		input:nth-child(2){
+			width: 20%;
+		}
 	}
-	.footer-button {
-		border:1px solid $bg-color;
-	}
-	input:first-child{
-		width: 70%;
-		margin-right: -4px;
-	}
-	input:nth-child(2){
-		width: 15%;
-	}
-}
-.fecha {
-	margin-top: 5%;
+	.fecha {
+	margin-top: 9%;
 	font-size: .8em;
+	}
+	nav {
+		a{
+			margin-left: 1%;
+		}
+	}
 }
+ /* Probablemente este hr corto se replique a lo largo del proyecto, 
+de ser así se pasará a common y se quitará de esta hoja*/
 .hr-short{
-	width: 20px;
+	width: 3%;
 	border: 1px solid $amarillo-laboratoria;
+	margin-top: -4.5px;
 	margin-left: 0px;
 }
