@@ -2,6 +2,7 @@
 
 //Third party vendors
 @import "vendor/bootstrap";
+@import "font-awesome-sprockets";
 @import "font-awesome";
 
 //Helpers
@@ -22,3 +23,6 @@
 
 //Pages
 @import "pages/home";
+
+//Components
+@import "components/buttons"
