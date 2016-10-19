@@ -1,0 +1,88 @@
+/* Main picture */
+#img-background {
+	background-image: url(../../../assets/images/home/students.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/* Texto que parpadea */
+.tech {
+	font-size: 3.5rem;
+	color: $font-color-white;
+	padding: 360px 370px;
+	margin: 0 auto;
+}
+
+.tech-parpadeo {
+  color: rgba(255, 255, 255, 0.32);
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+/* Enlace al Blog, dentro de la imagen principal */
+.enlace-blog {
+	width: 22%;
+	height: 22%;
+	background: white;
+	border-radius: 2px;
+	position: absolute;
+	right: 5%;
+	bottom: 4%;
+	font-size: 1rem;
+	p {
+		width: 50%;
+	}
+	img {
+		display: inline-block;
+		margin-left: 50%;
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		top: 0%;
+	}
+	.title {
+		font-style: uppercase;
+	}
+	.link {
+		text-decoration: underline;
+		color: $amarillo-laboratoria;
+	}
+}
+.fa-times {
+	color: $amarillo-laboratoria;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+
+/* Flecha scroll */
+.arrow {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+}

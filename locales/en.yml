@@ -14,7 +14,7 @@ en:
   header:
     menu:
       name: "menu"
-      joinus: "Join Us"
-      apply: "Apply"      
+      joinus: "join us"
+      apply: "apply"      
   index:
-    test: "This is the home"
+    tech: "We develop the female talent that the world need"

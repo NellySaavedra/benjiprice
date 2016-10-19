@@ -1,5 +1,30 @@
-<p class="mt-21"><%= t("index.test")%></p>
+<!-- Background image -->
+<div id="img-background" class="img-responsive">
+	<h3 class="tech text-center">
+		<span class="tech-parpadeo">&lowbar;</span>
+		<%= t("index.tech") %>
+	<h3>
+</div>
 
-<!--en la hoja "en.yml" aparece con esta sintaxis:
-  index:
-    test: "This is the home"-->
+<!-- Cuadro que lleva al blog -->
+<div class="enlace-blog p-14">
+	<h5 class="title">
+		<%= t("index.enlace-blog.title") %>
+	</h5>
+	<p class="description">
+		<%= t("index.enlace-blog.description") %>
+	</p>
+	<p>
+		<a href="#" class="link">
+			<%= t("index.enlace-blog.link") %>
+			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+		</a>
+	</p>
+	<img src="../assets/images/home/panel-obama-modified.jpg">
+	<i class="fa fa-times pt-7" aria-hidden="true"></i>
+</div>
+
+<!-- Flecha scroll -->
+<div class="arrow">
+	<img src="../assets/images/home/flecha.svg">
+</div>

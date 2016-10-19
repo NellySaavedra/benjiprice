@@ -14,7 +14,12 @@ es:
   header:
     menu:
       name: "menú"
-      joinus: "Únete"
-      apply: "Postula"
+      joinus: "únete"
+      apply: "postula"
   index:
-    test: "Este es el home page"
+    tech: "Formamos el talento femenino que el mundo tech necesita"
+    enlace-blog: 
+      title: "Blog"
+      description: "Nuestra CEO conversa con el presidente Obama y Mark Zuckerberg"
+      link: "fuente"
+      
