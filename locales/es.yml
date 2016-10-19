@@ -18,3 +18,5 @@ es:
       apply: "Postula"
   index:
     test: "Este es el home page"
+  postulacion:
+    datos_generales: "Datos Generales"

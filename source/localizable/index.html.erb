@@ -1,5 +1,118 @@
-<p class="mt-21"><%= t("index.test")%></p>
-
-<!--en la hoja "en.yml" aparece con esta sintaxis:
-  index:
-    test: "This is the home"-->
+<!--Sección programada por Nello-->
+<section class="backgroun-gray"><!-- Facilidad para contratar-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-ms-12 col-xs-12 text-center">
+				<h4 class="font-orange">03</h4>
+				<h3><%= t("section_03_contratacion.encabezado")%></h3>
+				<p class="text_p_medium"><%= t("section_03_contratacion.text_contratacion")%></p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4 col-ms-12 col-xs-12 img_03">
+			<img src="assets/images/img03/alumna1.png" alt="Alumna en salón de clases" class="img-responsive">
+				<h4><%= t("section_03_contratacion.encabezado_bloque1")%></h4>
+				<hr class="hr-short">
+				<p><em><%= t("section_03_contratacion.text_b1")%></em></p>
+			</div>
+			<div class="col-md-4 col-ms-12 col-xs-12 img_03">
+			<img src="assets/images/img03/alumna2.png" alt="Alumna haciendo anotaciones" class="img-responsive">
+				<h4><%= t("section_03_contratacion.encabezado_bloque2")%></h4>
+				<hr class="hr-short">
+				<p><em><%= t("section_03_contratacion.text_b2")%></em></p>
+			</div>
+			<div class="col-md-4 col-ms-12 col-xs-12 img_03">
+			<img src="assets/images/img03/alumna3.png" alt="Alumna recibiendo asesoría para resolver un problema" class="img-responsive">
+				<h4><%= t("section_03_contratacion.encabezado_bloque3")%></h4>
+				<hr class="hr-short">
+				<p><em><%= t("section_03_contratacion.text_b3")%></em></p>
+			</div>
+		</div>
+		<div class="row text-center mt-70"><!--¿Quieres más razones?-->
+			<div class="col-md-12 col-ms-12 col-xs-12">
+				<h4><%= t("seccion_03_razones.encabezado_razones")%></h4>
+				<hr class="hr-short">
+				<p class="text_p_plus"><%= t("seccion_03_razones.text_razones")%></p>
+			</div>
+		</div>
+		<div class="row mt-70">
+			<div class="col-md-3 col-ms-12 col-xs-12">
+				<h5>laboratoria</h5>
+				<h5>bootcamp promedio</h5>
+			</div>
+			<div class="col-md-3 col-ms-12 col-xs-12">
+				<div class="box-white">
+					<h5><%= t("title1.text_title1")%></h5>
+					<p class="font-orange"><%= t("title1.resultadoA")%></p>
+					<p><%= t("title1.resultadoB")%></p>
+					<a href="" class="a_underline">fuente →</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-ms-12 col-xs-12">
+				<div class="box-white">
+					<h5><%= t("title2.text_title2")%></h5>
+					<p class="font-orange"><%= t("title2.resultadoC")%></p>
+					<p><%= t("title2.resultadoD")%></p>
+					<a href="" class="a_underline">fuente →</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-ms-12 col-xs-12">
+				<div class="box-white">
+					<h5><%= t("title3.text_title3")%></h5>
+					<p class="font-orange"><%= t("title3.resultadoE")%></p>
+					<p><%= t("title3.resultadoF")%></p>
+					<a href="" class="a_underline">fuente →</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section><!--Panel de imaǵenes-->
+	<div class="container-fluid mb-70">
+		<div class="row">
+			<div class="col-md-6 col-xs-12 height_img bg_image1 positionA">
+				<p class="textPanel">"<%= t("testimonios.testimonio1")%>"</p>
+				<p><em><%= t("testimonios.autor1")%></em></p>
+			</div>
+			<div class="col-md-3 col-xs-12 height_img bg_image2 positionB text-center">
+				<p class="textPanel">"<%= t("testimonios.testimonio2")%>"</p>
+				<p><em class="font-orange"><%= t("testimonios.autor2")%></em></p>
+			</div>
+			<div class="col-md-3 col-xs-12 height_img bg_image3 positionB text-center">
+				<p class="textPanel">"<%= t("testimonios.testimonio3")%>"</p>
+				<p><em class="font-orange"><%= t("testimonios.autor3")%></em></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-xs-12 height_img bg_image4 positionB text-center">
+				<p class="textPanel">"<%= t("testimonios.testimonio4")%>"</p>
+				<p><em class="font-orange"><%= t("testimonios.autor4")%></em></p>
+			</div>
+			<div class="col-md-3 col-xs-12 height_img bg_image5 positionB text-center">
+				<p class="textPanel">"<%= t("testimonios.testimonio5")%>"</p>
+				<p><em class="font-orange"><%= t("testimonios.autor5")%></em></p>
+			</div>
+			<div class="col-md-6 col-xs-12 height_img bg_image6 positionA">
+				<p class="textPanel">"<%= t("testimonios.testimonio6")%>"</p>
+				<p><em><%= t("testimonios.autor6")%></em></p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row text-center mt-70"><!--Lo último-->
+			<div class="col-md-12 col-ms-12 col-xs-12">
+				<h3><%= t("ultimo.title4")%></h3>
+				<hr class="hr-short">
+				<p class="text_p_plus"><%= t("ultimo.subtitle4")%></p>
+				<p class="text_p_medium ">"<%= t("ultimo.textUltimo")%>"</p>
+				<div class="box_video mt-70 mb-70">
+					<!-- colocar el video correcto -->
+				</div>
+				<a href="" class="a_underline mt-70"><%= t("ultimo.linkLee")%></a><br>
+				<button class="mt-70 mb-70">descubre más posts</button>
+			</div>
+		</div>
+	</div>
+</section>
