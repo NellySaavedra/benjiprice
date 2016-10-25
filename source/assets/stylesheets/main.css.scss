@@ -17,12 +17,12 @@
 @import "base/boxmodel";
 @import "base/common";
 
+//Components
+@import "components/buttons";
+
 //Layouts
 @import "partials/header";
 @import "partials/footer";
 
 //Pages
 @import "pages/home";
-
-//Components
-@import "components/buttons"
