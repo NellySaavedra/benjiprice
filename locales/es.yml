@@ -18,5 +18,63 @@ es:
       apply: "Postula"
   index:
     test: "Este es el home page"
-  postulacion:
-    datos_generales: "Datos Generales"
+# footer  
+  footer:
+    nosotros: "nosotros"   
+    objetivo: "Usamos el código para tansformar <br>el futuro de miles de jóvenes <br> mujeres en  América 
+              Latina" 
+    fecha: "© Laboratoria 2016"
+    inscribete: "inscríbete a nuestra lista"
+    redes: "redes sociales"
+
+  postulacion: 
+    section1: "PRUEBA PARA ABRIR OTRA PÁGINA"
+# Sección correspondiente a 03 "facilidad para contratar"
+  section_03_contratacion:
+    encabezado: "facilidad para contratar"
+    text_contratacion: "Nuestro proceso de colocación laboral le quita muchos dolores de cabeza <br> a las empresas"
+    encabezado_bloque1: "demo day"
+    text_b1: "Hacemos  eventos donde las empresas pueden conocer a más de 40 coders listas para trabajar."
+    encabezado_bloque2: "innovación en la educación"
+    text_b2: "En nuestra web las empresas pueden ver el perfil detallado de cada coder y solicitar entrevistas."
+    encabezado_bloque3: "conexión talento empresa"
+    text_b3: "Apoyamos de cerca a nuestras estudiantes para que la rompan en sus entrevistas de trabajo."
+# Sección correspondiente a 03 "¿QUIERES MÁS RAZONES?"
+  seccion_03_razones: 
+    encabezado_razones: "¿QUIERES MÁS RAZONES?"
+    text_razones: "Nuestros resultados son superiores a los <br> del Average U.S Bootcamp"
+  title1: 
+    text_title1: "estudiantes en el 2016"
+    resultadoA: "280"
+    resultadoB: "197"
+  title2: 
+    text_title2: "% de colocación laboral"
+    resultadoC: "80%"
+    resultadoD: "73%"
+  title3: 
+    text_title3: "impacto en ingresos"
+    resultadoE: "3.0x"
+    resultadoF: "1.6x"
+# Panel de imágenes del punto 03
+  testimonios:
+    testimonio1: "Contratar egresadas de <br> Laboratoria fue lo mejor que le <br> pasó a la empresa"
+    autor1: "-empresa"
+    testimonio2: "Soy Jedi Master¡"
+    autor2: "-persona"
+    testimonio3: "Ver el avance de las chicas <br> es emocionante y fulfilling"
+    autor3: "-persona"
+    testimonio4: "Me encanta trabajar con <br> coders de laboratoria"
+    autor4: "-persona"
+    testimonio5: "Dictar charlas en Laboratoria es 100% motivador"
+    autor5: "-persona"
+    testimonio6: "Vengo contratando 4 <br> egresadas de Laboratoria y <br> hacen un trabajo excelente."
+    autor6: "-empresa" 
+# Sección correspondiente a 03 "LO ÚLTIMO"
+  ultimo:
+    title4: "LO ÚLTIMO"
+    subtitle4: "Obama reconoce nuestros resultados"
+    textUltimo: "Creo que es importante resaltar que su (Laboratoria) <br> tasa de éxito ha sido extraordinaria. Maravilloso"
+    linkLee: "lee sobre la experiencia de conocer a Obama y Mark →"
+
+
+

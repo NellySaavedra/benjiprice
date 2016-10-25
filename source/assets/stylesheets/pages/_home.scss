@@ -18,6 +18,9 @@
 .text_p_medium {
 	font-size: 1.5em;
 }
+.h5Razonnes {
+	margin-top: $mtop;
+}
 .box-white{
 	background-color: $bg-color;
 	padding: 4%;
@@ -35,6 +38,7 @@
 	text-decoration: underline;
 	font-weight: bold;
 }
+/*Preguntar si hay un efecto en específico para los hover de los enlaces*/
 .a_underline:hover{
 	color: $font-color-gray;
 	text-decoration: underline;
@@ -60,24 +64,22 @@
 }
 .bg_image2{
 	background-image: url('../images/img03/alumna1.png');
+	filter: brightness(70%);
 }
 .bg_image3{
 	background-image: url('../images/img03/alumna2.png');
+	filter: brightness(70%);
 }
 .bg_image4{
-		background-image: url('../images/img03/alumna3.png');
+	background-image: url('../images/img03/alumna3.png');
+	filter: brightness(70%);
 }
 .bg_image5{
 	background-image: url('../images/img03/alumna1.png');
+	filter: brightness(70%);
 }
 .bg_image6{
 	background-image: url('../images/img03/coder-arequipa@3x.png');
 }
 /*Sección de "Lo último"*/
-.box_video {
-	width: 100%;
-	height: 525px;
-	background-color: $gris-laboratoria;
-	margin-left: auto;
-	margin-right: auto;
-}
+
