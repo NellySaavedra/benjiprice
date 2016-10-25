@@ -1,7 +1,9 @@
 header{
-	position: absolute;
 	width: 100%;
 	font-family: $font-family-sans-serif;
+	background-color: transparent;
+	position: absolute;
+	z-index: 5;
 }
 
 .logo-horizontal {

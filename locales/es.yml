@@ -22,4 +22,16 @@ es:
       title: "Blog"
       description: "Nuestra CEO conversa con el presidente Obama y Mark Zuckerberg"
       link: "fuente"
+    empresas:
+      description: "Ya +100 empresas en Perú, México, Chile y EE.UU confían en nuestro talento"
+      link: "conoce nuestra historia"
+    contratar:
+      title: "¿Por qué contratar en Laboratoria?"
+      description: "porque nuestro talento es fuera de lo común y nuestra educación también lo es"
+      paragraph: "hay 3 cosas que nos diferencian:"
+    transformacion:
+      title: "transformación social"
+      description: "Identificamos jóvenes de bajos recursos como un potencial enorme y las formamos como las mejores coders"
+    perfil:
+      description: "Ganas de comerse al mundo y tech skills de alta demanda forman a nuestras coders"
       

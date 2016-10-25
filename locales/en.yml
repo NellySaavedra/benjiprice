@@ -18,3 +18,9 @@ en:
       apply: "apply"      
   index:
     tech: "We develop the female talent that the world need"
+    enlace-blog: 
+      title: "Blog"
+      description: "Our CEO talks with President Obama and Mark Zuckerberg"
+      link: "source"
+    perfil:
+      description: "Ganas de comerse al mundo y tech skills de alta demanda forman a nuestras coders"
