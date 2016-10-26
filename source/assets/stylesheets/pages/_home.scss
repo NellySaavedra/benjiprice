@@ -1,0 +1,85 @@
+
+.backgroun-gray {
+	background-color: $backgroun-light-gray;
+	padding-bottom: 8%;
+}
+.font-orange {
+	color: $font-color-orange;
+}
+.text_p_plus {
+	font-size: 2em;
+}
+.img_03 {
+	padding: 5%;
+	img{
+		width: 100%;
+	}
+}
+.text_p_medium {
+	font-size: 1.5em;
+}
+.h5Razonnes {
+	margin-top: $mtop;
+}
+.box-white{
+	background-color: $bg-color;
+	padding: 4%;
+	h5 {
+		color: $font-color-light-gray;
+		font-weight: bold;
+		margin-bottom: 15%;
+	}
+	p {
+		font-size: 2em;
+	}
+}
+.a_underline {
+	color: $font-color-orange;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/*Preguntar si hay un efecto en específico para los hover de los enlaces*/
+.a_underline:hover{
+	color: $font-color-gray;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/*Panel de imagenes*/
+.textPanel {
+	font-size: 1.3em;
+}
+.positionA {
+	padding: 9% 0% 0% 26%
+}
+.positionB {
+	color: $font-color-white;
+	padding-top: 16%;
+}
+.height_img {
+	background-size: cover;
+	height: 307px;
+}
+.bg_image1{
+	background-image: url('../images/img03/coder-arequipa@3x.png');
+}
+.bg_image2{
+	background-image: url('../images/img03/alumna1.png');
+	filter: brightness(70%);
+}
+.bg_image3{
+	background-image: url('../images/img03/alumna2.png');
+	filter: brightness(70%);
+}
+.bg_image4{
+	background-image: url('../images/img03/alumna3.png');
+	filter: brightness(70%);
+}
+.bg_image5{
+	background-image: url('../images/img03/alumna1.png');
+	filter: brightness(70%);
+}
+.bg_image6{
+	background-image: url('../images/img03/coder-arequipa@3x.png');
+}
+/*Sección de "Lo último"*/
+
