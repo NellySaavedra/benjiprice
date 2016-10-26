@@ -39,13 +39,15 @@ de ser así se pasará a common y se quitará de esta hoja*/
 			margin-left: 1%;
 		}
 	}
+	hr {
+		margin-left: 0%;
+	}
 }
- 
-/* Probablemente este hr corto se replique a lo largo del proyecto, 
+ /* Probablemente este hr corto se replique a lo largo del proyecto, 
 de ser así se pasará a common y se quitará de esta hoja*/
 .hr-short{
-	width: 3%;
+	width: 27px;
 	border: 1px solid $amarillo-laboratoria;
 	margin-top: -4.5px;
-	margin-left: 0px;
-}
+}	
+

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= t("head.title") %></title>
+    <%= stylesheet_link_tag :main %>
+    <%= partial 'partials/layout/metas' %>
+    <%= partial 'partials/layout/seo' %>
+    <%= partial 'partials/layout/facebook' %>
+    <%= partial 'partials/layout/twitter' %>
+    <%= partial 'partials/layout/icons' %>
+    <%= partial 'partials/layout/shims' %>
+    <link href='/humans.txt' rel='author' type='text/plain'>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= partial 'partials/header' %>
+    <%= yield %>
+    <%= partial 'partials/layout/scripts' %>
+  </body>
+</html>
