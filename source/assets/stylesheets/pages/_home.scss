@@ -1,114 +1,109 @@
-.container-fluid {
-	/* Main picture */
-	#img-background {
-		background-image: url(../../../assets/images/home/students.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
-		width: 100%;
-		position: relative;
-		padding: 25% 0;
+#img-background {
+	background-image: url(../../../assets/images/home/students.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	padding: 25% 0;
+}
+/* Texto que parpadea */
+.tech {
+	font-size: 3.5rem;
+	color: $font-color-white;
+	margin: 0 28%;
+}
+.tech-parpadeo {
+  color: rgba(255, 255, 255, 0.32);
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+/* Enlace al Blog, dentro de la imagen principal */
+.enlace-blog {
+	width: 23%;
+	height: 21%;
+	background: white;
+	border-radius: 2px;
+	position: absolute;
+	right: 6%;
+	bottom: 19%;
+	font-size: 1rem;
+	p {
+		width: 50%;
 	}
-	.row {
-		.col-md-12 {
-			/* Texto que parpadea */
-			.tech {
-				font-size: 3.5rem;
-				color: $font-color-white;
-				margin: 0 28%;
-			}
-			.tech-parpadeo {
-			  color: rgba(255, 255, 255, 0.32);
-			  animation-name: parpadeo;
-			  animation-duration: 1s;
-			  animation-timing-function: linear;
-			  animation-iteration-count: infinite;
-			  -webkit-animation-name: parpadeo;
-			  -webkit-animation-duration: 1s;
-			  -webkit-animation-timing-function: linear;
-			  -webkit-animation-iteration-count: infinite;
-			}
-			@-moz-keyframes parpadeo{  
-			  0% { opacity: 1.0; }
-			  50% { opacity: 0.0; }
-			  100% { opacity: 1.0; }
-			}
-			@-webkit-keyframes parpadeo {  
-			  0% { opacity: 1.0; }
-			  50% { opacity: 0.0; }
-			   100% { opacity: 1.0; }
-			}
-			@keyframes parpadeo {  
-			  0% { opacity: 1.0; }
-			   50% { opacity: 0.0; }
-			  100% { opacity: 1.0; }
-			}
-			/* Enlace al Blog, dentro de la imagen principal */
-			.enlace-blog {
-				width: 21%;
-				background: white;
-				border-radius: 2px;
-				position: absolute;
-				right: 6%;
-				top: 145%;
-				font-size: 1rem;
-				p {
-					width: 50%;
-				}
-				img {
-					display: inline-block;
-					margin-left: 50%;
-					width: 47%;
-					height: 100%;
-					position: absolute;
-					top: 0%;
-				}
-				.title {
-					text-transform: uppercase;
-				}
-				.link {
-					text-decoration: underline;
-					color: $amarillo-laboratoria;
-				}
-			}
-			.fa-times {
-				color: $amarillo-laboratoria;
-				position: absolute;
-				top: 0%;
-				right: 0%;
-			}
-			/* Flecha scroll */
-			.arrow {
-				position: absolute;
-				bottom: -111%;
-				left: 50%;
-			}
-		}
+	img {
+		display: inline-block;
+		margin-left: 50%;
+		width: 49%;
+		height: 100%;
+		position: absolute;
+		top: 0%;
 	}
-	/* Video */
-	.video-lab {
-		padding-bottom: 7%;
-		width: 62%;
-		height: 73%;
-		margin: 0 auto;
+	.title {
+		text-transform: uppercase;
 	}
-	.ytp-large-play-button {
-		border: 1px solid $amarillo-laboratoria;
+	.link {
+		text-decoration: underline;
+		color: $amarillo-laboratoria;
 	}
-	/* Empresas */
-	.empresas {
-		padding-bottom: 7%;
-		.p-empresas {
-			font-size: 2.6rem;
-			padding: 0px 21%;
-		}
-		img {
-			display: inline-block;
-			padding: 49px 21px;
-		}
-		a:hover {
-			text-decoration: none;
-		}
-		.link-meetus {
+}
+.fa-times {
+	color: $amarillo-laboratoria;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+/* Flecha scroll */
+.arrow {
+	position: absolute;
+	padding-top: 7%;
+	left: 50%;
+}
+/* Video */
+.video-lab {
+	padding-bottom: 7%;
+	width: 62%;
+	height: 73%;
+	margin: 0 auto;
+}
+.ytp-large-play-button {
+	border: 1px solid $amarillo-laboratoria;
+}
+/* Empresas */
+.empresas {
+	padding-bottom: 7%;
+	.p-empresas {
+		font-size: 2.6rem;
+		padding: 0px 21%;
+	}
+	img {
+		display: inline-block;
+		padding: 49px 21px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	.link-meetus {
 		color: $amarillo-laboratoria;
 		font-size: 1.8rem;
 		padding: 4px;
@@ -121,50 +116,49 @@
 			background-color: #F7B617;
 			top: 94%;
 			left: 42%;
-			}
 		}
 	}
-	/* Contratar */
-	.contratar {
-		padding: 77px;
-		h2 {
-			text-transform: uppercase;
-			font-size: 1.8rem;
-			font-weight: 600;
-		}
-		.hr-center {
-			text-align: center;
-			border: 1px solid $amarillo-laboratoria;
-			width: 2%;
-		}
-		.talent {
-			padding: 28px 27%;
-	    font-size: 2.6rem;
-		}
-		p {
-			font-size: 1.9rem;
-		}
+}
+/* Contratar */
+.contratar {
+	padding: 77px;
+	h2 {
+		text-transform: uppercase;
+		font-size: 1.8rem;
+		font-weight: 600;
 	}
-	/* Transformación */
-	.transformacion {
-		padding: 30px;
-		img {
-			width: 64%;
-		}
-		p {
-			font-size: 1.8rem;
-			padding: 21px 26%;
-		}
-		.texto-talento {
-			display: inline-block;
-			padding: 10px;
-		}
+	.hr-center {
+		text-align: center;
+		border: 1px solid $amarillo-laboratoria;
+		width: 2%;
 	}
-	/* El perfil */
-	.perfil {
-		h4 {
-			padding: 10px 27%;
-		}
+	.talent {
+		padding: 28px 27%;
+	  font-size: 2.6rem;
+	}
+	p {
+		font-size: 1.9rem;
+	}
+}
+/* Transformación */
+.transformacion {
+	padding: 30px;
+	img {
+		width: 64%;
+	}
+	p {
+		font-size: 1.8rem;
+		padding: 21px 26%;
+	}
+	.texto-talento {
+		display: inline-block;
+		padding: 10px;
+	}
+}
+/* El perfil */
+.perfil {
+	h4 {
+		padding: 10px 27%;
 	}
 }
 
