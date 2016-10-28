@@ -32,6 +32,31 @@ es:
     transformacion:
       title: "transformación social"
       description: "Identificamos jóvenes de bajos recursos como un potencial enorme y las formamos como las mejores coders"
+      description-two: "porque hay mucho talento sin acceso a oportunidades"
+      description-three: "y el mercado tech necesita más talento femenino"
     perfil:
+      title: "el perfil"
       description: "Ganas de comerse al mundo y tech skills de alta demanda forman a nuestras coders"
-      
+      nav-tabs:
+        link-one: "Front end junior"
+        link-two: "Super front end"
+        link-three: "Fullstack junior"
+        link-four: "Fullstack master"
+      tab-content: 
+        title: "Front end junior"
+        description: "La desarrolladora front end lleva un curso inmersivo de 6 meses en el que solo estudia de 9 a 5 pm y sale bien capa."
+        tab-left:
+          title: "Front end junior"
+          description: "La desarrolladora front end lleva un curso inmersivo de 6 meses en el que solo estudia de 9 a 5 pm y sale bien capa."
+        tab-right:
+          title: "Lenguajes aprendidos"
+          list-1: "JavaScript avanzado"
+          list-2: "Bases de arquitectura web"
+          list-3: "Modelo de datos"
+          list-4: "Node JS y HTTP"
+        tab-left-1:
+          title: "Super front end"
+        tab-left-2:
+          title: "Fullstack junior"
+        tab-left-3: 
+          title: "Fullstack master"

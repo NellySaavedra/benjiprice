@@ -86,15 +86,18 @@
 	height: 73%;
 	margin: 0 auto;
 }
-.ytp-large-play-button {
-	border: 1px solid $amarillo-laboratoria;
+.ytp-thumbnail-overlay-image {
+	.ytp-large-play-button {
+		border: 2px solid $amarillo-laboratoria;
+	}
 }
+
 /* Empresas */
 .empresas {
 	padding-bottom: 7%;
 	.p-empresas {
-		font-size: 2.6rem;
-		padding: 0px 21%;
+		font-size: 2.7rem;
+		padding: 0px 24%;
 	}
 	img {
 		display: inline-block;
@@ -157,14 +160,46 @@
 }
 /* El perfil */
 .perfil {
-	h4 {
+	.description-perfil {
 		padding: 10px 27%;
 	}
+	.tab-perfil {
+		padding: 0 18%;
+		.nav-tabs {
+			border: none;
+			.active {
+				background-color: white;
+				border-top: 2px solid $amarillo-laboratoria;
+			}
+			li {
+				&:hover {
+					background-color: white;
+					border-top: 2px solid $amarillo-laboratoria;
+				}
+				a {
+					margin: 0;
+					border: none;
+					padding: 17px 53px;
+					color: black;
+					&:hover {
+						background-color: white;
+						color: black;
+					}
+				}
+			}
+		}
+	}
+	.tab-content {
+		background-color: white;
+	}
+	.tab-left {
+		margin: 49px 0px 0px 28px;
+	}
+	.tab-right {
+		margin: 49px 0px 0px 28px;
+		h4 {
+			text-transform: uppercase;
+			font-size: 1.7rem;
+		}
+	}
 }
-
-
-
-
-
-
-
