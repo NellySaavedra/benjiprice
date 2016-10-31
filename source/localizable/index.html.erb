@@ -63,30 +63,147 @@
 				<div class="contratar bg-gris">
 					<h2><%= t("index.contratar.title") %></h2>
 					<hr class="hr-center">
-					<p class="talent"><%= t("index.contratar.description") %><p>
-						<p><%= t("index.contratar.paragraph") %></p>
-					</div>
-					<div class="transformacion bg-gris">
-						<h2 class="title-yellow p-7">01</h2>
-						<h2 class="title-black"><%= t("index.transformacion.title") %></h2>
-						<p><%= t("index.transformacion.description") %></p>
-						<img src="../assets/images/home/group-4.svg">
-						<p class="italic texto-talento">porque hay mucho <strong>talento</strong> sin acceso a oportunidades</p>
-						<p class="italic texto-talento">y el mercado tech necesita más <strong>talento femenino</strong></p>
-					</div>
+					<p class="talent"><%= t("index.contratar.description") %></p>
+					<p><%= t("index.contratar.paragraph") %></p>
 				</div>
 			</div>
-		</section>
-		<!-- El perfil -->
-		<section class="perfil bg-gris">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-xs-12 p-0">
-					<h2 class="title-yellow p-7">el perfil</h2>
-					<h4 class="text-center"><%= t("index.perfil.description") %></h4>
+		</div>
+		<!-- Transformación -->
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 p-0">
+				<div class="transformacion bg-gris">
+					<h2 class="title-yellow p-7">01</h2>
+					<h2 class="title-black"><%= t("index.transformacion.title") %></h2>
+					<p><%= t("index.transformacion.description") %></p>
+					<img src="../assets/images/home/group-4.svg">
+					<p class="italic texto-talento"><%= t("index.transformacion.description-two") %></p>
+					<p class="italic texto-talento"><%= t("index.transformacion.description-three") %></p>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
+	<!-- El perfil -->
+	<section class="perfil bg-gris p-0 m-0">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 p-0">
+				<h2 class="title-yellow p-7"><%= t("index.perfil.title") %></h2>
+				<h4 class="text-center description-perfil"><%= t("index.perfil.description") %></h4>
+				<div class= "tab-perfil">
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs italic" role="tablist">
+				    <li role="presentation" class="active">
+				    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+				    		<%= t("index.perfil.nav-tabs.link-one") %>
+				    	</a>
+				    </li>
+				    <li role="presentation">
+				    	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+				    		<%= t("index.perfil.nav-tabs.link-two") %>
+				    	</a>
+				    </li>
+				    <li role="presentation">
+				    	<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+				    		<%= t("index.perfil.nav-tabs.link-three") %>
+				    	</a>
+				    </li>
+				    <li role="presentation">
+				    	<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+				    		<%= t("index.perfil.nav-tabs.link-four") %>
+				    	</a>
+				    </li>
+				  </ul>
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="home">
+					    <div class="row pb-21">
+					    	<div class="col-md-6">
+					    		<div class="tab-left">
+						    		<h3><%= t("index.perfil.tab-content.tab-left.title") %></h3>
+						    		<p><%= t("index.perfil.tab-content.tab-left.description") %></p>
+						    	</div>
+					    	</div>
+					    	<div class="col-md-6">
+					    		<div class="tab-right">
+							 			<h4><%= t("index.perfil.tab-content.tab-right.title") %></h4>
+							    	<ul>
+							    		<li><%= t("index.perfil.tab-content.tab-right.list-1") %></li>
+							    		<li><%= t("index.perfil.tab-content.tab-right.list-2") %></li>
+							    		<li><%= t("index.perfil.tab-content.tab-right.list-3") %></li>
+							    		<li><%= t("index.perfil.tab-content.tab-right.list-4") %></li>
+							    	</ul>
+							 		</div>
+					    	</div>
+					    </div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="profile">
+				    	<div class="row pb-21">
+				    		<div class="col-md-6">
+				    			<div class="tab-left-2">
+				    				<h3></h3>
+				    				<p></p>
+				    			</div>
+				    		</div>
+				    		<div class="col-md-6">
+				    			<div class="tab-right-2">
+				    				<h4></h4>
+				    				<ul>
+				    					<li></li>
+				    					<li></li>
+				    					<li></li>
+				    					<li></li>
+				    				</ul>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="messages">
+				    	<div class="row pb-21">
+				    		<div class="col-md-6">
+				    			<div class="tab-left-3">
+				    				<h3></h3>
+				    				<p></p>
+				    			</div>
+				    		</div>
+				    		<div class="col-md-6">
+				    			<div class="tab-right-3">
+				    				<h4></h4>
+				    				<ul>
+				    					<li></li>
+				    					<li></li>
+				    					<li></li>
+				    					<li></li>
+				    				</ul>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="settings">
+					    <div class="row pb-21">
+					    	<div class="col-md-6">
+					    		<div class="tab-left-4">
+					    			<h3></h3>
+					    			<p></p>
+					    		</div>
+					    	</div>
+					    	<div class="col-md-6">
+					    		<div class="tab-right-4">
+					    			<h4></h4>
+					    			<ul>
+					    				<li></li>
+					    				<li></li>
+					    				<li></li>
+					    				<li></li>
+					    			</ul>
+					    		</div>
+					    	</div>
+					    </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
 <!--Sección programada por Nello-->
 <section class="backgroun-gray"><!-- Facilidad para contratar-->
 	<div class="container">
