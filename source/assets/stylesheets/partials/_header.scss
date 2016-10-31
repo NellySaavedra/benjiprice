@@ -1,11 +1,14 @@
+header{
+	width: 100%;
+	font-family: $font-family-sans-serif;
+	background-color: transparent;
+	position: absolute;
+	z-index: 5;
+}
+
 .logo-horizontal {
 	width: 220px;
 	&:hover{
 		text-style: none;
 	}
-}
-
-.tcon span {
-	color: $amarillo-laboratoria;
-	font-size: 1.8rem;
 }
