@@ -14,18 +14,33 @@ en:
   header:
     menu:
       name: "menu"
-      joinus: "Join Us"
-      apply: "Apply"  
-
+      joinus: "join us"
+      apply: "apply"
+  index:
+    tech: "We develop the female talent that the world need"
+    enlace-blog:
+      title: "Blog"
+      description: "Our CEO talks with President Obama and Mark Zuckerberg"
+      link: "source"
+    perfil:
+      description: "Ganas de comerse al mundo y tech skills de alta demanda forman a nuestras coders"
+    empresas:
+      description: "Ya +100 empresas en Perú, México, Chile y EE.UU confían en nuestro talento"
+      link: "conoce nuestra historia"
+    contratar:
+      title: "¿Por qué contratar en Laboratoria?"
+      description: "porque nuestro talento es fuera de lo común y nuestra educación también lo es"
+      paragraph: "hay 3 cosas que nos diferencian:"
+    transformacion:
+      title: "transformación social"
+      description: "Identificamos jóvenes de bajos recursos como un potencial enorme y las formamos como las mejores coders"
   footer:
-    nosotros: "nosotros"   
-    objetivo: "Usamos el código para tansformar <br>el futuro de miles de jóvenes <br> mujeres en  América 
-              Latina" 
+    nosotros: "nosotros"
+    objetivo: "Usamos el código para tansformar <br>el futuro de miles de jóvenes <br> mujeres en  América Latina"
     fecha: "© Laboratoria 2016"
     inscribete: "inscríbete a nuestra lista"
     redes: "redes sociales"
-
-  postulacion: 
+  postulacion:
     section1: "PRUEBA PARA ABRIR OTRA PÁGINA"
 # Sección correspondiente a 03 "facilidad para contratar"
   section_03_contratacion:
@@ -38,18 +53,18 @@ en:
     encabezado_bloque3: "conexión talento empresa"
     text_b3: "Apoyamos de cerca a nuestras estudiantes para que la rompan en sus entrevistas de trabajo."
 # Sección correspondiente a 03 "¿QUIERES MÁS RAZONES?"
-  seccion_03_razones: 
+  seccion_03_razones:
     encabezado_razones: "¿QUIERES MÁS RAZONES?"
     text_razones: "Nuestros resultados son superiores a los <br> del Average U.S Bootcamp"
-  title1: 
+  title1:
     text_title1: "estudiantes en el 2016"
     resultadoA: "280"
     resultadoB: "197"
-  title2: 
+  title2:
     text_title2: "% de colocación laboral"
     resultadoC: "80%"
     resultadoD: "73%"
-  title3: 
+  title3:
     text_title3: "impacto en ingresos"
     resultadoE: "3.0x"
     resultadoF: "1.6x"
@@ -66,13 +81,10 @@ en:
     testimonio5: "Dictar charlas en Laboratoria es 100% motivador"
     autor5: "-persona"
     testimonio6: "Vengo contratando 4 <br> egresadas de Laboratoria y <br> hacen un trabajo excelente."
-    autor6: "-empresa" 
+    autor6: "-empresa"
 # Sección correspondiente a 03 "LO ÚLTIMO"
   ultimo:
     title4: "LO ÚLTIMO"
     subtitle4: "Obama reconoce nuestros resultados"
     textUltimo: "Creo que es importante resaltar que su (Laboratoria) <br> tasa de éxito ha sido extraordinaria. Maravilloso"
     linkLee: "lee sobre la experiencia de conocer a Obama y Mark →"
-
-
-
