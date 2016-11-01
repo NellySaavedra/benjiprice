@@ -1,7 +1,48 @@
 <!--Sección programada por Nello-->
-<section class="backgroun-gray"><!-- Facilidad para contratar-->
+<section class="backgroun-gray">
 	<div class="container">
+		<div class="row mt-70"><!-- 02 innovacion en la educación-->
+			<div class="col-md-12 col-ms-12 col-xs-12 text-center">
+				<h4 class="font-orange">02</h4>
+				<h3><%= t("section_02.encabezado_02")%></h3>
+				<p class="text_p_medium"><%= t("section_02.text_02")%></p>
+			</div>
+		</div>
+		<div class="row"><!-- panel de imágenes -->
+			<div class="col-md-5 col-xs-12 paddig_prueba">
+				<div class="height_02_img bg_02_img1">
+					<div>
+						<img src="assets/images/img03/group-19@3x.png" alt="" class="img-responsive">
+					</div>
+					<div>
+						<p class="text_p_plus"><%= t("section_02.img_text_02_1")%></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7 col-xs-12 paddig_prueba">
+				<div class="height_02_img bg_02_img2">
+					<p class="text_p_medium"><%= t("section_02.img_text_02_2")%></p>
+				</div>	
+			</div>
+		</div>
 		<div class="row">
+			<div class="col-md-7 col-xs-12 paddig_prueba">
+				<div class="height_02_img bg_02_img3">
+					<p class="text_p_medium"><%= t("section_02.img_text_02_3")%></p>
+				</div>
+			</div>
+			<div class="col-md-5 col-xs-12 paddig_prueba">
+				<div class="height_02_img bg_02_img4">
+					<div>
+						<img src="assets/images/img03/group-19@3x.png" alt="" class="img-responsive">
+					</div>
+					<div>
+						<p class="text_p_plus"><%= t("section_02.img_text_02_4")%></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-70"><!-- 03 Facilidad para contratar-->
 			<div class="col-md-12 col-ms-12 col-xs-12 text-center">
 				<h4 class="font-orange">03</h4>
 				<h3><%= t("section_03_contratacion.encabezado")%></h3>
@@ -74,7 +115,7 @@
 				<p class="textPanel">"<%= t("testimonios.testimonio1")%>"</p>
 				<p><em><%= t("testimonios.autor1")%></em></p>
 			</div>
-			<div class="col-md-3 col-xs-12 height_img bg_image2 positionB text-center">
+			<div class="col-md-3 col-xs-12 height_img  bg_image2 positionB text-center">
 				<p class="textPanel">"<%= t("testimonios.testimonio2")%>"</p>
 				<p><em class="font-orange"><%= t("testimonios.autor2")%></em></p>
 			</div>
@@ -109,10 +150,10 @@
 				<p class="text_p_medium ">"<%= t("ultimo.textUltimo")%>"</p>
 				<div class="box_video mt-70 mb-70">
 					<!-- colocar el video correcto con la calidad de imagen correcta-->
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/cX_0va1PBYU?list=PLXEl1EcIfY3eQd5wtvl04rx6o7HLtSZhX" frameborder="0" allowfullscreen></iframe>
+					<iframe width="80%" height="525" src="https://www.youtube.com/embed/cX_0va1PBYU?list=PLXEl1EcIfY3eQd5wtvl04rx6o7HLtSZhX" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<a href="" class="a_underline mt-70"><%= t("ultimo.linkLee")%></a><br>
-				<button class="mt-70 mb-70 button-max-size ">descubre más posts</button>
+				<button class="mt-70 mb-70 button-max-size "><%= t("ultimo.text_button")%></button>
 			</div>
 		</div>
 	</div>

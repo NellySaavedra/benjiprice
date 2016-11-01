@@ -1,4 +1,79 @@
-
+/* sección 02*/
+.paddig_prueba{
+	margin: 15px 0px;
+}
+.height_02_img {
+	height: 249px;
+	padding: 10% 7%;
+}
+.bg_02_img1 {
+	background-color: $amarillo-laboratoria;
+	img{
+		width: 80%;
+	}
+	div{
+		float: left;
+	}
+	div:first-child{
+		height: 100%;
+		width: 35%;
+	}
+	div:nth-child(2){
+		height: 100%;
+		width: 63%;
+		color: $font-color-white;
+		padding-left: 18%;
+		span {
+			font-weight: bold;
+		} 
+	}
+}
+.bg_02_img2 {
+	background-image: url('../images/img03/bitmap.png');
+	background-size: cover;
+	color: $font-color-white;
+	font-weight: bold;
+		p{
+			position: absolute;
+			text-align: right;
+			bottom: 0px;
+			right: 10%;
+		}
+	}
+.bg_02_img3 {
+	background-image: url('../images/img03/bitmap_2.png');
+	background-size: cover;
+	color: $font-color-white;
+	font-weight: bold;
+		p{
+			position: absolute;
+			bottom: 0px;
+		}
+	}
+.bg_02_img4 {
+	background-color: $backgroun-dark-gray;
+		img{
+		width: 80%;
+	}
+	div{
+		float: left;
+	}
+	div:first-child{
+		height: 100%;
+		width: 35%;
+	}
+	div:nth-child(2){
+		height: 100%;
+		width: 63%;
+		color: $font-color-white;
+		padding-left: 18%;
+		span{
+			color: $amarillo-laboratoria;
+			font-weight: bold;
+		}
+	}
+}
+/* sección 03*/
 .backgroun-gray {
 	background-color: $backgroun-light-gray;
 	padding-bottom: 8%;
@@ -57,7 +132,7 @@
 }
 .height_img {
 	background-size: cover;
-	height: 307px;
+	height: 294px;
 }
 .bg_image1{
 	background-image: url('../images/img03/coder-arequipa@3x.png');

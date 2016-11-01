@@ -29,6 +29,14 @@ es:
 
   postulacion: 
     section1: "PRUEBA PARA ABRIR OTRA PÁGINA"
+# sección correspondiente a 02 "innovación en educación"
+  section_02:
+    encabezado_02: "innovación en educación"
+    text_02: "Nuestra educación relamente responde a lo que necesita el mercado"
+    img_text_02_1: "currícula <span>codiseñada</span> con grandes empresas"
+    img_text_02_2: "<em>agile classroom</em><br>para acelerar el aprendizaje"
+    img_text_02_3: "desarrollo de habilidades técnicas y blandas"
+    img_text_02_4: "<span>formación</span>  que continua durante el trabajo"
 # Sección correspondiente a 03 "facilidad para contratar"
   section_03_contratacion:
     encabezado: "facilidad para contratar"
