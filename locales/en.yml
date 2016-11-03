@@ -16,71 +16,115 @@ en:
       name: "menu"
       joinus: "Join Us"
       apply: "Apply"  
+      joinus: "join us"
+      apply: "apply"
+  index:
+    tech: "We develop the female talent that the world need"
+    enlace-blog:
+      title: "Blog"
+      description: "Our CEO talks with President Obama and Mark Zuckerberg"
+      link: "source"
+    perfil:
+      description: "Ganas de comerse al mundo y tech skills de alta demanda forman a nuestras coders"
+    empresas:
+      description: "Ya +100 empresas en Perú, México, Chile y EE.UU confían en nuestro talento"
+      link: "conoce nuestra historia"
+    contratar:
+      title: "¿Por qué contratar en Laboratoria?"
+      description: "porque nuestro talento es fuera de lo común y nuestra educación también lo es"
+      paragraph: "hay 3 cosas que nos diferencian:"
+    transformacion:
+      title: "transformación social"
+      description: "Identificamos jóvenes de bajos recursos como un potencial enorme y las formamos como las mejores coders"
+      description-two: "porque hay mucho talento sin acceso a oportunidades"
+      description-three: "y el mercado tech necesita más talento femenino"
+    perfil:
+      title: "el perfil"
+      description: "Ganas de comerse al mundo y tech skills de alta demanda forman a nuestras coders"
+      nav-tabs:
+        link-one: "Front end junior"
+        link-two: "Super front end"
+        link-three: "Fullstack junior"
+        link-four: "Fullstack master"
+      tab-content:
+        title: "Front end junior"
+        description: "La desarrolladora front end lleva un curso inmersivo de 6 meses en el que solo estudia de 9 a 5 pm y sale bien capa."
+        tab-left:
+          title: "Front end junior"
+          description: "La desarrolladora front end lleva un curso inmersivo de 6 meses en el que solo estudia de 9 a 5 pm y sale bien capa."
+        tab-right:
+          title: "Lenguajes aprendidos"
+          list-1: "JavaScript avanzado"
+          list-2: "Bases de arquitectura web"
+          list-3: "Modelo de datos"
+          list-4: "Node JS y HTTP"
+        tab-left-1:
+          title: "Super front end"
+        tab-left-2:
+          title: "Fullstack junior"
+        tab-left-3:
+          title: "Fullstack master"
+# sección correspondiente a 02 "innovación en educación"
+    section-02:
+      encabezado-02: "innovación en educación"
+      text-02: "Nuestra educación relamente responde a lo que necesita el mercado"
+      img-text-02-1: "currícula <span>codiseñada</span> con grandes empresas"
+      img-text-02-2: "<em>agile classroom</em><br>para acelerar el aprendizaje"
+      img-text-02-3: "desarrollo de habilidades técnicas y blandas"
+      img-text-02-4: "<span>formación</span>  que continua durante el trabajo"
+      methodology: "conoce más sobre nuestra metodología "
+# Sección correspondiente a 03 "facilidad para contratar"
+    section-03-contratacion:
+      encabezado: "facilidad para contratar"
+      text-contratacion: "Nuestro proceso de colocación laboral le quita muchos dolores de cabeza <br> a las empresas"
+      encabezado-bloque1: "demo day"
+      text-b1: "Hacemos  eventos donde las empresas pueden conocer a más de 40 coders listas para trabajar."
+      encabezado-bloque2: "innovación en la educación"
+      text-b2: "En nuestra web las empresas pueden ver el perfil detallado de cada coder y solicitar entrevistas."
+      encabezado-bloque3: "conexión talento empresa"
+      text-b3: "Apoyamos de cerca a nuestras estudiantes para que la rompan en sus entrevistas de trabajo."
+# Sección correspondiente a 03 "¿QUIERES MÁS RAZONES?"
+    seccion-03-razones:
+      encabezado-razones: "¿QUIERES MÁS RAZONES?"
+      text-razones: "Nuestros resultados son superiores a los <br> del Average U.S Bootcamp"
+    title1:
+      text-title1: "estudiantes en el 2016"
+      resultadoA: "280"
+      resultadoB: "197"
+    title2:
+      text-title2: "% de colocación laboral"
+      resultadoC: "80%"
+      resultadoD: "73%"
+    title3:
+      text-title3: "impacto en ingresos"
+      resultadoE: "3.0x"
+      resultadoF: "1.6x"
+# Panel de imágenes del punto 03
+    testimonios:
+      testimonio1: "Contratar egresadas de <br> Laboratoria fue lo mejor que le <br> pasó a la empresa"
+      autor1: " empresa"
+      testimonio2: "Soy Jedi Master¡"
+      autor2: " persona"
+      testimonio3: "Ver el avance de las chicas <br> es emocionante y fulfilling"
+      autor3: " persona"
+      testimonio4: "Me encanta trabajar con <br> coders de laboratoria"
+      autor4: " persona"
+      testimonio5: "Dictar charlas en Laboratoria es 100% motivador"
+      autor5: " persona"
+      testimonio6: "Vengo contratando 4 <br> egresadas de Laboratoria y <br> hacen un trabajo excelente."
+      autor6: " empresa"
+# Sección correspondiente a 03 "LO ÚLTIMO"
+    ultimo:
+      title4: "LO ÚLTIMO"
+      subtitle4: "Obama reconoce nuestros resultados"
+      textUltimo: "Creo que es importante resaltar que su (Laboratoria) <br> tasa de éxito ha sido extraordinaria. Maravilloso"
+      linkLee: "lee sobre la experiencia de conocer a Obama y Mark "
+      text-button: "descubre más posts "
 # footer  
   footer:
-    nosotros: "nosotros"   
-    objetivo: "Usamos el código para tansformar <br>el futuro de miles de jóvenes <br> mujeres en  América 
+    we-are: "nosotros"   
+    objective: "Usamos el código para tansformar <br>el futuro de miles de jóvenes <br> mujeres en  América 
               Latina" 
-    fecha: "© Laboratoria 2016"
-    inscribete: "inscríbete a nuestra lista"
-    redes: "redes sociales"
-
-  postulacion: 
-    section1: "PRUEBA PARA ABRIR OTRA PÁGINA"
-# sección correspondiente a 02 "innovación en educación"
-  section_02:
-    encabezado_02: "innovación en educación"
-    text_02: "Nuestra educación relamente responde a lo que necesita el mercado"
-    img_text_02_1: "currícula <span>codiseñada</span> con grandes empresas"
-    img_text_02_2: "<em>agile classroom</em><br>para acelerar el aprendizaje"
-    img_text_02_3: "desarrollo de habilidades técnicas y blandas"
-    img_text_02_4: "<span>formación</span>  que continua durante el trabajo"
-# Sección correspondiente a 03 "facilidad para contratar"
-  section_03_contratacion:
-    encabezado: "facilidad para contratar"
-    text_contratacion: "Nuestro proceso de colocación laboral le quita muchos dolores de cabeza <br> a las empresas"
-    encabezado_bloque1: "demo day"
-    text_b1: "Hacemos  eventos donde las empresas pueden conocer a más de 40 coders listas para trabajar."
-    encabezado_bloque2: "innovación en la educación"
-    text_b2: "En nuestra web las empresas pueden ver el perfil detallado de cada coder y solicitar entrevistas."
-    encabezado_bloque3: "conexión talento empresa"
-    text_b3: "Apoyamos de cerca a nuestras estudiantes para que la rompan en sus entrevistas de trabajo."
-# Sección correspondiente a 03 "¿QUIERES MÁS RAZONES?"
-  seccion_03_razones: 
-    encabezado_razones: "¿QUIERES MÁS RAZONES?"
-    text_razones: "Nuestros resultados son superiores a los <br> del Average U.S Bootcamp"
-  title1: 
-    text_title1: "estudiantes en el 2016"
-    resultadoA: "280"
-    resultadoB: "197"
-  title2: 
-    text_title2: "% de colocación laboral"
-    resultadoC: "80%"
-    resultadoD: "73%"
-  title3: 
-    text_title3: "impacto en ingresos"
-    resultadoE: "3.0x"
-    resultadoF: "1.6x"
-# Panel de imágenes del punto 03
-  testimonios:
-    testimonio1: "Contratar egresadas de <br> Laboratoria fue lo mejor que le <br> pasó a la empresa"
-    autor1: "-empresa"
-    testimonio2: "Soy Jedi Master¡"
-    autor2: "-persona"
-    testimonio3: "Ver el avance de las chicas <br> es emocionante y fulfilling"
-    autor3: "-persona"
-    testimonio4: "Me encanta trabajar con <br> coders de laboratoria"
-    autor4: "-persona"
-    testimonio5: "Dictar charlas en Laboratoria es 100% motivador"
-    autor5: "-persona"
-    testimonio6: "Vengo contratando 4 <br> egresadas de Laboratoria y <br> hacen un trabajo excelente."
-    autor6: "-empresa" 
-# Sección correspondiente a 03 "LO ÚLTIMO"
-  ultimo:
-    title4: "LO ÚLTIMO"
-    subtitle4: "Obama reconoce nuestros resultados"
-    textUltimo: "Creo que es importante resaltar que su (Laboratoria) <br> tasa de éxito ha sido extraordinaria. Maravilloso"
-    linkLee: "lee sobre la experiencia de conocer a Obama y Mark →"
-    text_button: "descubre más posts"
-
-
+    data: "© Laboratoria 2016"
+    sign-up: "inscríbete a nuestra lista"
+    social-networks: "redes sociales"

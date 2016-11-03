@@ -1,12 +1,208 @@
-/* sección 02*/
-.paddig_prueba{
+
+#img-background {
+	background-image: url(../../../assets/images/home/students.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	padding: 25% 0;
+}
+/* Texto que parpadea */
+.tech {
+	font-size: 3.5rem;
+	color: $font-color-white;
+	margin: 0 28%;
+}
+.tech-parpadeo {
+  color: rgba(255, 255, 255, 0.32);
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+@-moz-keyframes parpadeo{
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes parpadeo {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+@keyframes parpadeo {
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+/* Enlace al Blog, dentro de la imagen principal */
+.enlace-blog {
+	width: 23%;
+	height: 21%;
+	background: white;
+	border-radius: 2px;
+	position: absolute;
+	right: 6%;
+	bottom: 19%;
+	font-size: 1rem;
+	p {
+		width: 50%;
+	}
+	img {
+		display: inline-block;
+		margin-left: 50%;
+		width: 49%;
+		height: 100%;
+		position: absolute;
+		top: 0%;
+	}
+	.title {
+		text-transform: uppercase;
+	}
+}
+.fa-times {
+	color: $amarillo-laboratoria;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+/* Flecha scroll */
+.arrow {
+	position: absolute;
+	padding-top: 7%;
+	left: 50%;
+}
+/* Video */
+.video-lab {
+	padding-bottom: 7%;
+	width: 62%;
+	height: 73%;
+	margin: 0 auto;
+}
+.ytp-thumbnail-overlay-image {
+	.ytp-large-play-button {
+		border: 2px solid $amarillo-laboratoria;
+	}
+}
+/* Empresas */
+.empresas {
+	padding-bottom: 7%;
+	.p-empresas {
+		font-size: 2.7rem;
+		padding: 0px 24%;
+	}
+	img {
+		display: inline-block;
+		padding: 49px 21px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	.link-meetus {
+		color: $amarillo-laboratoria;
+		font-size: 1.8rem;
+		padding: 4px;
+		position: relative;
+		&:after {
+			content: "";
+			position: absolute;
+			width: 16%;
+			height: 2px;
+			background-color: #F7B617;
+			top: 94%;
+			left: 42%;
+		}
+	}
+}
+/* Contratar */
+.contratar {
+	padding: 77px;
+	h2 {
+		text-transform: uppercase;
+		font-size: 1.8rem;
+		font-weight: 600;
+	}
+	.talent {
+		padding: 28px 27%;
+	  font-size: 2.6rem;
+	}
+	p {
+		font-size: 1.9rem;
+	}
+}
+/* Transformación */
+.transformacion {
+	padding: 30px;
+	img {
+		width: 64%;
+	}
+	p {
+		font-size: 1.8rem;
+		padding: 21px 26%;
+	}
+	.texto-talento {
+		display: inline-block;
+		padding: 10px;
+	}
+}
+/* El perfil */
+.perfil {
+	.description-perfil {
+		padding: 10px 27%;
+	}
+	.tab-perfil {
+		padding: 0 18%;
+		.nav-tabs {
+			border: none;
+			.active {
+				background-color: white;
+				border-top: 2px solid $amarillo-laboratoria;
+			}
+			li {
+				&:hover {
+					background-color: white;
+					border-top: 2px solid $amarillo-laboratoria;
+				}
+				a {
+					margin: 0;
+					border: none;
+					padding: 17px 53px;
+					color: black;
+					&:hover {
+						background-color: white;
+						color: black;
+					}
+				}
+			}
+		}
+	}
+	.tab-content {
+		background-color: white;
+	}
+	.tab-left {
+		margin: 49px 0px 0px 28px;
+	}
+	.tab-right {
+		margin: 49px 0px 0px 28px;
+		h4 {
+			text-transform: uppercase;
+			font-size: 1.7rem;
+		}
+	}
+}
+/* sección 02 ----------------Estilos de Nello---------------*/
+.paddig-prueba{
 	margin: 15px 0px;
 }
-.height_02_img {
+.height-section02-img {
 	height: 249px;
 	padding: 10% 7%;
 }
-.bg_02_img1 {
+.bg-section02-img1 {
 	background-color: $amarillo-laboratoria;
 	img{
 		width: 80%;
@@ -28,7 +224,7 @@
 		} 
 	}
 }
-.bg_02_img2 {
+.bg-section02-img2 {
 	background-image: url('../images/img03/bitmap.png');
 	background-size: cover;
 	color: $font-color-white;
@@ -40,7 +236,7 @@
 			right: 10%;
 		}
 	}
-.bg_02_img3 {
+.bg-section02-img3 {
 	background-image: url('../images/img03/bitmap_2.png');
 	background-size: cover;
 	color: $font-color-white;
@@ -50,7 +246,7 @@
 			bottom: 0px;
 		}
 	}
-.bg_02_img4 {
+.bg-section02-img4 {
 	background-color: $backgroun-dark-gray;
 		img{
 		width: 80%;
@@ -81,16 +277,16 @@
 .font-orange {
 	color: $font-color-orange;
 }
-.text_p_plus {
+.text-p-plus {
 	font-size: 2em;
 }
-.img_03 {
+.img-03 {
 	padding: 5%;
 	img{
 		width: 100%;
 	}
 }
-.text_p_medium {
+.text-p-medium {
 	font-size: 1.5em;
 }
 .h5Razonnes {
@@ -108,16 +304,17 @@
 		font-size: 2em;
 	}
 }
-.a_underline {
+.a-underline {
 	color: $font-color-orange;
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: bold;
-}
-/*Preguntar si hay un efecto en específico para los hover de los enlaces*/
-.a_underline:hover{
-	color: $font-color-gray;
-	text-decoration: underline;
-	font-weight: bold;
+	border-bottom: 2px solid $amarillo-laboratoria;
+		&:hover{
+			color: $font-color-orange;
+			text-decoration: none;
+			font-weight: bold;
+			border-bottom: 2px solid $amarillo-laboratoria;
+		}
 }
 /*Panel de imagenes*/
 .textPanel {
@@ -130,31 +327,30 @@
 	color: $font-color-white;
 	padding-top: 16%;
 }
-.height_img {
+.height-img {
 	background-size: cover;
 	height: 294px;
 }
-.bg_image1{
+.bg-image1{
 	background-image: url('../images/img03/coder-arequipa@3x.png');
 }
-.bg_image2{
+.bg-image2{
 	background-image: url('../images/img03/alumna1.png');
 	filter: brightness(70%);
 }
-.bg_image3{
+.bg-image3{
 	background-image: url('../images/img03/alumna2.png');
 	filter: brightness(70%);
 }
-.bg_image4{
+.bg-image4{
 	background-image: url('../images/img03/alumna3.png');
 	filter: brightness(70%);
 }
-.bg_image5{
+.bg-image5{
 	background-image: url('../images/img03/alumna1.png');
 	filter: brightness(70%);
 }
-.bg_image6{
+.bg-image6{
 	background-image: url('../images/img03/coder-arequipa@3x.png');
 }
 /*Sección de "Lo último"*/
-
